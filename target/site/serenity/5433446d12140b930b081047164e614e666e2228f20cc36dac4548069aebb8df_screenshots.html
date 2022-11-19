@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Prueba tecnica usando Serenity y Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="16650426b191a8fa4d31363a8b7bc00ce17659f67c588fdd1e0a4eb98d1f2ba9.html">Sign Up Utest</a></span>
+                > <span class="truncate-60"><a
+                    href="5433446d12140b930b081047164e614e666e2228f20cc36dac4548069aebb8df.html">Automated sign up in UTest </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-11-2022 22:34</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Sign Up Utest </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As an user, I want to sign up in utest platform in an automated way so that I can use all platform functionalities
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Automated sign up in UTest
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a1a623dbb8918065d50b9fcc77dce7fa3c33bf926d2c46de0d4cb78fd2e60457.png" title=" Given Vanesa wants to sign up on the uTest platform" width="1920"/>
+                <img src="a1a623dbb8918065d50b9fcc77dce7fa3c33bf926d2c46de0d4cb78fd2e60457.png" title=" Vanesa open up" width="1920"/>
+                <img src="a1a623dbb8918065d50b9fcc77dce7fa3c33bf926d2c46de0d4cb78fd2e60457.png" title=" Vanesa opens the U test page" width="1920"/>
+                <img src="a1a623dbb8918065d50b9fcc77dce7fa3c33bf926d2c46de0d4cb78fd2e60457.png" title=" Vanesa open up (completed)" width="1920"/>
+                <img src="4ac9d20625e746ebc81e505f497877d4f774c56347cadb3313f4cbe7421510f1.png" title=" Vanesa join today" width="1920"/>
+                <img src="4ac9d20625e746ebc81e505f497877d4f774c56347cadb3313f4cbe7421510f1.png" title=" Vanesa clicks on Bot&Atilde;&sup3;n de Join Today" width="1920"/>
+                <img src="4ac9d20625e746ebc81e505f497877d4f774c56347cadb3313f4cbe7421510f1.png" title=" Vanesa join today (completed)" width="1920"/>
+                <img src="4ac9d20625e746ebc81e505f497877d4f774c56347cadb3313f4cbe7421510f1.png" title=" Given Vanesa wants to sign up on the uTest platform (completed)" width="1920"/>
+                <img src="775f075c805581afd90f62be74f27b649668a7c8e24ac7ee57ccedb9d8c14f0b.png" title=" When she entered all the data requested by the platform
+| strFirstName | strLastName | strBirthdayMonth | strBirthdayDay | strBirthdayYear | strEmail | strPassword | strPasswordConfirmation | strCity | strZip | strCountry | strComputerOS | strComputerVersion | strComputerLanguage | strMobileOS | strMobileBrand | strMobileModel |
+| Vanesa | Fernandez | February | 11 | 1997 | vanesa089-18@hotmail.com | Choucair1* | Choucair1* | Cali | 760026 | Colombia | Windows | 10 | Spanish | Android 7.0 | Alcatel | Crystal |" width="1920"/>
+                <img src="775f075c805581afd90f62be74f27b649668a7c8e24ac7ee57ccedb9d8c14f0b.png" title=" Vanesa data register" width="1920"/>
+                <img src="775f075c805581afd90f62be74f27b649668a7c8e24ac7ee57ccedb9d8c14f0b.png" title=" Vanesa enters 'Vanesa' into Donde escribimos el nombre" width="1920"/>
+                <img src="04c622e55779cbc2f8e2614a78baea86cc5d56cdec07fed00c77fdcb5f93a5f0.png" title=" Vanesa enters 'Fernandez' into Donde escribimos el apellido" width="1920"/>
+                <img src="13bde1725cccfe641153adfeb42947ba5c6f1151713efde4aacc3c9540ce132d.png" title=" Vanesa enters 'vanesa089-18@hotmail.com' into Donde escribimos el correo " width="1920"/>
+                <img src="0582689482e6bca1d58deac55ca29ad30e1eb5fe0611b396ca7de1c99b038fb6.png" title=" Vanesa select February on Donde se escoge el mes de cumplea&Atilde;&plusmn;os" width="1920"/>
+                <img src="2f077550b7ce7d56c2052dab32ec5833187ce04b780a2c6a0cd4529a79c92676.png" title=" Vanesa select 11 on Donde se escoge el dia de cumplea&Atilde;&plusmn;os" width="1920"/>
+                <img src="5cfbcf686773b859993e5802af7c7b2096bbb14b0dd81f0baf694aa8c153e20c.png" title=" Vanesa select 1997 on Donde se escoge el a&Atilde;&plusmn;o de cumplea&Atilde;&plusmn;os" width="1920"/>
+                <img src="d14bcf2627f6be24d3851110072c81c6364718386bcc9b4e5f37b4d46ebb7092.png" title=" Vanesa clicks on Bot&Atilde;&sup3;n que pasa al segundo paso del formulario" width="1920"/>
+                <img src="4b815cf890ef4024370726c272bf614c99e166ca145a93ac56f09dd5c5e5f1a0.png" title=" Vanesa enters 'Cali' into Donde escribimos la ciudad" width="1920"/>
+                <img src="9097cb686f35c2e7913fbd7db2c355e6e966327d2858691bce6ececc169248eb.png" title=" Vanesa clicks on Donde escribimos la ciudad" width="1920"/>
+                <img src="56e6e8db61ceed5d98c15540f3e12194614ac9a0a5314c28111de7948b645663.png" title=" Vanesa enters '760026' into Donde escribimos el c&Atilde;&sup3;digo postal" width="1920"/>
+                <img src="fb86d0474af626fc1783d45492d515286b823fee785bbcdcfe28443fcfbf6a32.png" title=" Vanesa clicks on Div que obtiene los paises" width="1920"/>
+                <img src="659230fa6d3b7f2b9d78f84803e9150b0d9d7d86152d3bb4f126b9f208ea72e1.png" title=" Vanesa enters 'Colombia' into Donde escribimos escribimos el pais" width="1920"/>
+                <img src="9070b33a9b2e5de171b8d1273c5b5e8ebb5da255242d7daa6e584c758ebb98d3.png" title=" Vanesa clicks on Donde escribimos escribimos el pais" width="1920"/>
+                <img src="57ee1615238e0bd5c93941c1c02a3e351dc79bbbf9e6ade756407428a4205c29.png" title=" Vanesa clicks on Bot&Atilde;&sup3;n que pasa al tercer paso del formulario" width="1920"/>
+                <img src="373aaeca1e979d99251fe8ff44077b4bd7e43252d4a2ffe3d89fe67cf907e386.png" title=" Vanesa clicks on Extrae el sistema operativo del computador" width="1920"/>
+                <img src="9da6d5529ba79b3dbd881607c92999f6f14dd0a21505e72a66db45b657b7ac61.png" title=" Vanesa enters 'Windows' into Donde escribimos el sistema operativo del computador" width="1920"/>
+                <img src="e977b836574ebe2fb4824a51b663e9de13daba7b48f86995bc0ba21fafdab41f.png" title=" Vanesa clicks on Donde escribimos el sistema operativo del computador" width="1920"/>
+                <img src="9d3c37231e36b95da2e8dc701c23bb433ce0db2db18b62d6157937b4f8c85b82.png" title=" Vanesa clicks on Extrae la version del computador" width="1920"/>
+                <img src="3d821c943b8a3c326d0a17c1aa260faa6e7344567998f7b5b00d7072fa425981.png" title=" Vanesa enters '10' into Donde escribimos la version del computador" width="1920"/>
+                <img src="0fa0513a235d8c4811f003eaec99458293a73548fd4dc91daf62c168a5780b43.png" title=" Vanesa clicks on Donde escribimos la version del computador" width="1920"/>
+                <img src="470dee320d30482718398d7e47931551bce12676b8110172c2d65331e805fd24.png" title=" Vanesa clicks on Extrae el lenguaje del computador" width="1920"/>
+                <img src="ff356a0a9e9691ed4c9a37d9e23acf5cf5c217d7607797e6d29f3b6b56c41096.png" title=" Vanesa enters 'Spanish' into Donde escribimos el lenguaje del computador" width="1920"/>
+                <img src="29f309aee854df0936a82b68e56e9cfb8b58af4dc2a1f2598a2101f70f5c16f4.png" title=" Vanesa clicks on Donde escribimos el lenguaje del computador" width="1920"/>
+                <img src="42e2137994c072ee662ca7b1c456a7017ca1fa9342c2813670ab74318b016d47.png" title=" Vanesa clicks on Extrae la marca del dispositivo movil" width="1920"/>
+                <img src="9f29281516aa35943fbed8de982d5187b5082c86dd8f2a0097d0a53f815ef87f.png" title=" Vanesa enters 'Alcatel' into Donde escribimos la marca del dispositivo movil" width="1920"/>
+                <img src="c5473741c5d345bd9bd9b51272b88770d440bb20cfad778178d90b3b610029e8.png" title=" Vanesa types 'ENTER' in Donde escribimos la marca del dispositivo movil" width="1920"/>
+                <img src="71da02bb4c07f402f384729d0a368f0499f3cd45479a5af4915ed5e585efe6b7.png" title=" Vanesa clicks on Extrae el modelo del dispositivo movil" width="1920"/>
+                <img src="108f83f4be1e8702f43e045e94fe3213474ef798e5ed0cb5652812c422fb15d5.png" title=" Vanesa enters 'Crystal' into Donde escribimos el modelo del dispositivo movil" width="1920"/>
+                <img src="2068c94d7899ce867310b07da87e643a5aac416d504264066ffc13a6401f4239.png" title=" Vanesa types 'ENTER' in Donde escribimos el modelo del dispositivo movil" width="1920"/>
+                <img src="a9bb982618b57127e2022c82dd75b3c087b9b1416ea8c693295d8369d6573694.png" title=" Vanesa clicks on Extrae el sistema operativo del dispositivo movil" width="1920"/>
+                <img src="c7aa5aef1fdc8a64afdb69ef8039a244859a090300b4aae34a2e1f419bb3b912.png" title=" Vanesa enters 'Android 7.0' into Donde escribimos el sistema operativo del dispositivo movil" width="1920"/>
+                <img src="0cd84b589ddf238ea94051fd11b9209e4e9c9a12e84e8899707624efeca801c8.png" title=" Vanesa types 'ENTER' in Donde escribimos el sistema operativo del dispositivo movil" width="1920"/>
+                <img src="373ca8651e8b0d486b1618f6977c5958f7279e22c99020d9a9921b105ecd480e.png" title=" Vanesa clicks on Bot&Atilde;&sup3;n que pasa al cuarto paso del formulario" width="1920"/>
+                <img src="f03ce3a3f87644a25bec91244194504e738f9e90ef807e7a957f5b4e02ac888a.png" title=" Vanesa enters 'Choucair1*' into Input donde escribimos la contrase&Atilde;&plusmn;a" width="1920"/>
+                <img src="39c46ab9d1a7c96d54774e99b3e40e2e037d11758e5bad9f93b1d29999de31b1.png" title=" Vanesa enters 'Choucair1*' into Input donde escribimos la confirmacion de la contrase&Atilde;&plusmn;a" width="1920"/>
+                <img src="77e6f7a6f1d7f979a51bd2d2085ab19ab644f9475b03b6aeee2e1a55d580f1ed.png" title=" Vanesa clicks on Acepta haber leido los terminos de uTest  " width="1920"/>
+                <img src="533b663b3f9813124f652f36574b62a5a62284d2cde20062e846d31d7ae1a8e3.png" title=" Vanesa clicks on Acepta haber leido los terminos de seguridad y privacidad " width="1920"/>
+                <img src="bd31702bc4eaee4e200e4fef885f334186768a05d93e5a16bfdf51ccfe29d9ab.png" title=" Vanesa clicks on Bot&Atilde;&sup3;n que registra los datos del usuario " width="1920"/>
+                <img src="ed8e057a972c8707f5fe6e535c6126032c79c55966d7096470fdf9ec537ab3fd.png" title=" Vanesa data register (completed)" width="1920"/>
+                <img src="ed8e057a972c8707f5fe6e535c6126032c79c55966d7096470fdf9ec537ab3fd.png" title=" When she entered all the data requested by the platform
+| strFirstName | strLastName | strBirthdayMonth | strBirthdayDay | strBirthdayYear | strEmail | strPassword | strPasswordConfirmation | strCity | strZip | strCountry | strComputerOS | strComputerVersion | strComputerLanguage | strMobileOS | strMobileBrand | strMobileModel |
+| Vanesa | Fernandez | February | 11 | 1997 | vanesa089-18@hotmail.com | Choucair1* | Choucair1* | Cali | 760026 | Colombia | Windows | 10 | Spanish | Android 7.0 | Alcatel | Crystal | (completed)" width="1920"/>
+                <img src="ed8e057a972c8707f5fe6e535c6126032c79c55966d7096470fdf9ec537ab3fd.png" title=" Then she will be signed up" width="1920"/>
+                <img src="ed8e057a972c8707f5fe6e535c6126032c79c55966d7096470fdf9ec537ab3fd.png" title=" Then sign up answer" width="1920"/>
+                <img src="ed8e057a972c8707f5fe6e535c6126032c79c55966d7096470fdf9ec537ab3fd.png" title=" Then she will be signed up (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
