@@ -8,5 +8,6 @@ Feature: Sign Up Utest
     Given Vanesa wants to sign up on the uTest platform
     When she entered all the data requested by the platform
       |strFirstName|strLastName|strBirthdayMonth|strBirthdayDay |strBirthdayYear|strEmail               |strPassword|strPasswordConfirmation|strCity  |strZip|strCountry|strComputerOS|strComputerVersion|strComputerLanguage|strMobileOS|strMobileBrand|strMobileModel|
-      |Vanesa      |Fernandez  |February        |11             |1997           |vanesa089-22@hotmail.com|Choucair1* |Choucair1*             |Cali     |760026|Colombia  |Windows      |10                |Spanish            |Android 7.0|Alcatel       |Crystal       |
+      |Vanesa      |Fernandez  |February        |11             |1997           |vanesa089-23@hotmail.com|Choucair1* |Choucair1*             |Cali     |760026|Colombia  |Windows      |10               |Spanish            |iOs 2.0    |Apple         |iPhone        |
     Then she will be signed up
+
